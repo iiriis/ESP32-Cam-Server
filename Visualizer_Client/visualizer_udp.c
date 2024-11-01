@@ -117,20 +117,6 @@ int main() {
 
     // Render loop
     while (!glfwWindowShouldClose(window)) {
-        // Calculate FPS
-        // double currentTime = glfwGetTime();
-        // nbFrames++;
-        // if (currentTime - lastTime >= 1.0) { // If last update was over a second ago
-        //     // Create a title string with FPS
-        //     char title[256];
-        //     snprintf(title, sizeof(title), "Broadcasted Stream - FPS: %d", nbFrames);
-
-        //     // Set the window title
-        //     glfwSetWindowTitle(window, title);
-
-        //     nbFrames = 0;
-        //     lastTime += 1.0;
-        // }
 
         render();
         glfwSwapBuffers(window);
